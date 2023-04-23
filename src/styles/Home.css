@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 25rem;
+    margin-left: 26.875rem;
+    margin-top: 5rem;
+    border: .625rem;
+    border-radius: 1.25rem;
+    border-color: black;
+    background-color: #6c25be;
+}
+
+.homescreen {
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+}
+
+.usuario {
+    height: .625rem;
+    width: .625rem;
+    background-color: transparent;
+    border: none;
+}

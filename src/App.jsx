@@ -1,9 +1,15 @@
-import './styles/App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Login } from './pages/Login'
+import { Home } from './pages/Home'
 
 function App() {
-
     return (
-        <h1>HEADER SÓ PRA NÃO BUGAR O APP.JSX</h1>
+        <Router>
+            <Routes>
+                <Route exact path="/" Component={Home}/>
+                <Route path="/login" Component={Login} />
+            </Routes>
+        </Router>
     )
 }
 
