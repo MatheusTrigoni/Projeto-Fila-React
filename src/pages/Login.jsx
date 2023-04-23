@@ -23,6 +23,7 @@ export function Login() {
                <input type="text" />
             </label>
             </p>
+
             <input type="submit" />
         <Link to='/'> 
             <button>Voltar Home</button>
