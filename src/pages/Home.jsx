@@ -5,12 +5,12 @@ import user from '../assets/user.png'
 export function Home() {
     return (
         <section className="home">
-            <div className="homescreen">
-                <header>
-                    <h1>Bem-Vindo ao manipulador de filas, clique no botão para ir à tela de Login</h1>
-                </header>
+            <header>
+                <h1>Bem-Vindo ao manipulador de filas, clique no botão abaixo para ir à tela de Login</h1>
+            </header>
+            <div>
                 <Link to="/login">
-                    <button type="button" className="usuario">
+                    <button type="button">
                         <img src={user} alt="USUÁRIOA" />
                     </button>
                 </Link>
