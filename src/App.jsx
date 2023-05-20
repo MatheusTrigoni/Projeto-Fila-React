@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Login } from './pages/Login'
 import { Home } from './pages/Home'
 
-function App() {
+// A função App funcionará como um "roteador" que fará o link entre as páginas
+export function App() {
     return (
         <Router>
             <Routes>
@@ -12,5 +13,3 @@ function App() {
         </Router>
     )
 }
-
-export default App

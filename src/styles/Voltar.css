@@ -1,0 +1,16 @@
+.voltar {
+    margin: .9375rem 17.625rem 3.75rem .9375rem;
+}
+
+.voltar button {
+    width: 4.875rem;
+    height: 4.875rem;
+    background-color: #D88827;
+    border-color: transparent;
+    border-radius: 100%;
+}
+
+.voltar img {
+    width: 3.5rem;
+    height: 3.875rem;
+}
