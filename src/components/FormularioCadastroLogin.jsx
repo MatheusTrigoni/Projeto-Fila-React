@@ -1,9 +1,10 @@
-import '../styles/Formulario.css'
+import { Link } from 'react-router-dom'
+import '../styles/FormularioCadastroLogin.css'
 
 // Um formulário presente em ambas as telas de Login e Cadastro
-export function Formulario(texto) {
+export function FormularioCadastroLogin({ texto }) {
     return (
-        <section className="formulario">
+        <section className="formulario-cadastro-login">
             <form action="">
                 <div className="label-email-senha">
                     <label htmlFor="email">Email</label>
@@ -19,7 +20,10 @@ export function Formulario(texto) {
                     <input type="text" id="email" placeholder="Digite aqui..." />
                 </div>
             </form>
-            <button type="submit">Cadastrar-se</button>
+            
+            <Link to="/adm">
+                <button type="submit">{texto}</button>
+            </Link>
         </section>
     )
 }

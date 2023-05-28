@@ -1,0 +1,21 @@
+.voltar-sair {
+    margin: .9375rem 17.625rem 4.5rem .9375rem;
+}
+
+.voltar-sair button {
+    width: 4.125rem;
+    height: 4.125rem;
+    background-color: #D88827;
+    border: 0;
+    border-radius: 100%;
+}
+
+.voltar {
+    width: 3.125rem;
+    height: 3.5625rem;
+}
+
+.sair {
+    width: 3.5rem;
+    height: 3.5rem;
+}

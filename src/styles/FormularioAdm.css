@@ -1,0 +1,44 @@
+.formulario-adm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3.75rem;
+}
+
+.formulario-adm input {
+    width: 11.875rem;
+    height: 3.625rem;
+    color: #D88827;
+    border: 0;
+    border-radius: 1.875rem;
+}
+
+.formulario-adm input::placeholder {
+    color: #FFF;
+    opacity: 50%;
+    font-size: 1.5rem;
+}
+
+.adicionar-remover {
+    margin-left: 2.5625rem;
+    color: #D88827;
+    width: 3.8125rem;
+    height: 3.8125rem;
+    border: 0;
+    border-radius: 100%;
+}
+
+.adicionar-remover img {
+    width: 3.375rem;
+    height: 3.375rem;
+}
+
+.formulario-adm button {
+    margin-top: 6.125rem;
+    width: 10.3125rem;
+    height: 3.4375rem;
+    background-color: #D88827;
+    color: #FFF;
+    border: 0;
+    border-radius: 1.875rem;
+}

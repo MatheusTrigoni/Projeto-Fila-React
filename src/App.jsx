@@ -1,16 +1,20 @@
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import { Login } from './pages/Login'
+import { Router, Route, Routes} from 'react-router-dom'
 import { Home }  from './pages/Home'
+import { Login } from './pages/Login'
 import { Cadastro } from './pages/Cadastro'
+import { Adm } from './pages/Adm'
+import { Fila } from './pages/Fila'
 
 export function App() {
-    return (   
+    return (
        <Router>
             <Routes>
-                 <Route exact path="/" Component={Home} />
-                <Route path="/login" Component={Login} />  
-                <Route path="/Cadastro" Component={Cadastro} />         
+                <Route exact path="/" element={<Home />} />
+                <Route path="/cadastro" element={<Cadastro />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/adm" element={<Adm />} />
+                <Route path="/fila" element={<Fila />} />
             </Routes>
-        </Router>      
+        </Router>
     )
 }

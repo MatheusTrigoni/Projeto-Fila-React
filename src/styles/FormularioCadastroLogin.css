@@ -1,11 +1,11 @@
-.formulario {
+.formulario-cadastro-login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.formulario input {
+.formulario-cadastro-login input {
     margin-top: 1.5625rem;
     width: 19.4375rem;
     height: 3.625rem;
@@ -14,29 +14,29 @@
     border-radius: 1.875rem;
 }
 
-.formulario input::placeholder {
+.formulario-cadastro-login input::placeholder {
     padding-left: 1.5625rem;
     color: #FFF;
     opacity: 50%;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.formulario label {
+.formulario-cadastro-login label {
     color: #FFF;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .label-email-senha {
     margin-top: 3.75rem;
 }
 
-.formulario button {
+.formulario-cadastro-login button {
     margin: 5.625rem 2.0625rem 7.375rem 9.5rem;
-    width: 11.875rem;
-    height: 3.9375rem;
-    font-size: 24px;
+    width: 10.3125rem;
+    height: 3.4375rem;
+    font-size: 1.25rem;
     background-color: #D88827;
     color: #FFF;
+    border: 0;
     border-radius: 1.875rem;
-    border-color: transparent;
 }
